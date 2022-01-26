@@ -1,0 +1,162 @@
+body
+{
+	background-image: url("image/unnamed.jpg");
+	background-attachment: fixed; 
+}
+#titre
+{
+	display: flex;
+	color: white;
+	font-size: 88px;
+	height: 65px;
+	width: 850px;
+	margin:auto;
+	margin-top: 100px;
+	justify-content: center;
+}
+#quote
+{
+	font-style: italic;
+	color: white;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 38px;
+	margin-left: 150px;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav a
+{
+	margin: top;
+	display: block;
+	border-left: 4px white solid; 
+	width: 183px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+}
+nav a:hover
+{
+	text-shadow: white 1px 0 10px;
+	background-color: rgba(255,255,255,0.65);
+}
+#baaq2
+{
+	background-color: rgba(255,255,255,0.65);
+}
+#contact
+{
+	border-right: 4px white solid;
+}
+#bloc
+{
+	background-color: rgba(255,255,255,0.88);
+	width: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+}
+#logo
+{
+	margin-left: 80px;
+	float: left;
+}
+#below
+{
+	clear: both;
+	margin-top: 3.125em;
+	margin-left: 80px;
+	margin-right: 80px;
+	text-indent: 30px;
+}
+#above
+{
+	margin-left: 180px;
+	margin-right: 80px;
+	text-indent: 30px;
+}
+#bloc h1,h2
+{
+	margin-left: 80px;
+	margin-top: 40px;
+}
+footer
+{
+	margin-top: 80px;
+	background-color: rgba(0,0,0,0.88)!important;
+	color: white;
+}
+#follow
+{
+	text-align: center;
+	font-size: 17px;
+}
+#Privacy
+{
+	font-size: 9px;
+}
+#icones
+{
+	display: flex;
+	justify-content: space-around;
+}
+.icon
+{
+	width: 30px;
+}
+figcaption
+{
+	text-align: center;
+}
+#photo1
+{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+h1,h2
+{
+	font-size: 33px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#bloc
+	{
+		width: auto;
+	}
+	nav
+	{
+		width: auto;
+		text-align: left;
+	}
+	nav ul
+	{
+		flex-direction: column;
+	}
+	nav li
+	{
+		padding-left: 4px;
+	}
+	nav a
+	{
+		font-size: 2em;
+		width: 8.5em;
+		border-right: 4px white solid;
+	}
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+	#titre
+	{
+		width: 500px;
+	}
+}
