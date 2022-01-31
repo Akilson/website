@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('font/Amble-Regular-webfont.eot');
+    src: url('font/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Amble-Regular-webfont.woff2') format('woff2'),
+         url('font/Amble-Regular-webfont.woff') format('woff'),
+         url('font/Amble-Regular-webfont.ttf') format('truetype'),
+         url('font/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body
+{
+    background-color: black;
+}
+h1
+{
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 8.5em;
+    border-bottom: 5px white groove;
+    border-radius: 22px / 15px;
+    box-shadow: 8px 8px 8px grey;
+}
+h2,h3,h4,h5
+{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+.subtitle
+{
+    color: rgba(256,256,256,0.8);
+    text-decoration: underline;
+}
+.photo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.nom
+{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.text
+{
+    color: rgba(255,255,255,0.5);
+
+}
+a:hover
+{
+    background-color: white;
+    color: black;
+}
+a:active,a:visited
+{
+    color: grey;
+}
