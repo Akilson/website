@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("image/unnamed.jpg");
+	background-color: black;
 	background-attachment: fixed; 
 }
 
@@ -16,7 +16,7 @@ nav a
 	margin: top;
 	display: block;
 	border-left: 4px white solid; 
-	width: 183px;
+	width: 188px;
 	text-align: center;
 	font-size: 24px;
 	color: white;
@@ -49,6 +49,10 @@ footer
 	background-color: rgba(0,0,0,0.88)!important;
 	color: white;
 }
+.link
+{
+	font-family: 'roboto_slabregular', Arial;
+}
 #follow
 {
 	text-align: center;
@@ -71,6 +75,11 @@ footer
 p,h1
 {
 	color: white;
+	font-family: 'roboto_slabregular', Arial;
+}
+h1
+{
+	text-shadow: white 0.063em 0 0.625em;
 }
 #con p
 {

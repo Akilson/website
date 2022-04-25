@@ -1,10 +1,12 @@
 body
 {
-	background-image: url("image/unnamed.jpg");
+	background-color: black;
 	background-attachment: fixed; 
 }
 #titre
 {
+	font-family: 'roboto_slabregular', Arial;
+	text-shadow: white 0.063em 0 0.625em;
 	display: flex;
 	color: white;
 	font-size: 88px;
@@ -16,6 +18,7 @@ body
 }
 #quote
 {
+	font-family: 'titillium_webitalic',Arial;
 	font-style: italic;
 	color: white;
 	font-size: 28px;
@@ -36,7 +39,7 @@ nav a
 	margin: top;
 	display: block;
 	border-left: 4px white solid; 
-	width: 183px;
+	width: 188px;
 	text-align: center;
 	font-size: 24px;
 	color: white;
@@ -93,8 +96,13 @@ footer
 	background-color: rgba(0,0,0,0.88)!important;
 	color: white;
 }
+.link
+{
+	font-family: 'roboto_slabregular', Arial;
+}
 #follow
 {
+	font-family: 'titillium_webitalic',Arial;
 	text-align: center;
 	font-size: 17px;
 }
@@ -114,12 +122,18 @@ footer
 h1,h2
 {
 	font-size: 33px;
+	font-family: 'roboto_slabregular', Arial;
+
 }
 #backstory
 {
 	margin-left: 80px;
 	margin-right: 80px;
 	text-indent: 30px;
+}
+p
+{
+	font-family: 'source_code_proextralight',Arial;
 }
 @media all and (max-width: 1024px)
 {
