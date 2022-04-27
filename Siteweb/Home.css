@@ -94,11 +94,10 @@ footer
 {
 	width: 1.3em;
 }
-iframe
+#video
 {
-	margin-left: auto;
-    margin-right: auto;
-    display: block
+	display: flex;
+	justify-content: center;
 }
 @media all and (max-width: 1024px)
 {
