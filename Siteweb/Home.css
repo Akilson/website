@@ -94,6 +94,12 @@ footer
 {
 	width: 1.3em;
 }
+iframe
+{
+	margin-left: auto;
+    margin-right: auto;
+    display: block
+}
 @media all and (max-width: 1024px)
 {
 	#bloc_page
